@@ -36,9 +36,8 @@ repo root.
 
 ## To customize
 
-- **Phone number:** replace the placeholder `(540) 555-0123` in `index.html`
-  (search for `TODO`) and the matching `tel:` link.
-- **Email:** the quote form and contact link use `benhart8202@gmail.com`.
+- **Phone number:** `(540) 580-9941` (contact section + `tel:` link).
+- **Email:** the quote form and contact link use `taylordetailing540@gmail.com`.
 - **Service area / hours / copy:** all editable directly in `index.html`.
 - **Hosting:** drop the folder on any static host (GitHub Pages, Netlify,
   Cloudflare Pages, etc.).
