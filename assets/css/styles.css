@@ -127,7 +127,7 @@ h1, h2, h3, .brand-text {
 .section-lead { color: var(--ink-soft); font-size: 1.08rem; }
 
 /* ===== Service cards ===== */
-.svc-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+.svc-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); gap: 26px; }
 .svc-card {
   background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
   padding: 36px 30px; display: flex; flex-direction: column;
@@ -254,7 +254,6 @@ h1, h2, h3, .brand-text {
 
 /* ===== Responsive ===== */
 @media (max-width: 900px) {
-  .svc-cards { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
   .about-inner, .contact-inner { grid-template-columns: 1fr; gap: 36px; }
   .grid-gallery { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 200px; }
   .gitem[data-span="2"] { grid-column: span 2; }
